@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ai机器人
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python Ai机器人.py"
+    envVars:
+      - key: TELEGRAM_TOKEN
+        sync: false
