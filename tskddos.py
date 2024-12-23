@@ -14,21 +14,21 @@ M  MMMMM  M M  MMMMM  M M  MMMMM  M MMMMMMM   M
 M  MMMM   M M  MMMM   M M   MMM   M M   MMM   M
 M        MM M        MM MMb     dMM Mb       dM
 MMMMMMMMMMM MMMMMMMMMMM MMMMMMMMMMM MMMMMMMMMMM
-\033[0mDistributed Denial of Service - Termux Tools
 """
-
+print(f"\033[35m作者——天神\033[0m")
 # 清屏并打印 ASCII 标题
 os.system("clear")
 print(ascii_title)
 print(" ")
-print("/---------------------------------------------------\\ ")
-print("|   作者          : sinkfall      天神                      |")
-print("|  我们终究在时间的长河中流逝 迷失自我             |")
-print("|   频道          : @pubgtianshenMOD                          |")
-print("\\---------------------------------------------------/")
-print(" ")
-print(" -----------------[请勿用于违法用途]----------------- ")
-print(" ")
+print("\033[36m ")
+print("\033[36m/---------------------------------------------------\\ ")
+print("\033[36m|   作者          : sinkfall      天神                      |")
+print("\033[36m|  我们终究在时间的长河中流逝 迷失自我             |")
+print("\033[36m|   频道          : @pubgtianshenMOD                          |")
+print("\033[36m\\---------------------------------------------------/") 
+print("\033[36m ")
+print("\033[36m -----------------[请勿用于违法用途]----------------- ")
+print("\033[36m ")
 
 # 获取用户输入
 ip = input("请输入目标 IP 地址     : ")
